@@ -2,7 +2,7 @@
 function ItemListContent(greeting){
     return(
         <>
-        <p>{greeting.greeting}</p>
+        <h2>{greeting.greeting}</h2>
         </>
     )
 }

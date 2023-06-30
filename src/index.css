@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background-color: rgb(255, 195, 127);
+    background-color: rgb(96, 114, 192);
     
 }
 
@@ -23,12 +23,10 @@
     padding-top: 10px;
 }
 
-/*.cart{
-    padding: 15px;
-    background-color: cadetblue;
-    border: 1px solid black;
-    border-radius: 10px 0px 10px;
-}*/
+.cart{
+    width: 45px;
+    height: 35px;
+}
 
 .number{
     background-color: firebrick;

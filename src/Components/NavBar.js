@@ -5,7 +5,7 @@ import CartWidget from "./CartWidget"
 function NavBar() {
   return (
     <div className="navbar">
-      <h1>La Tienducha</h1>
+      <h1>Santana Store</h1>
       <ul className="links">
         <li>
           <button href="#">Nosotros</button>
@@ -21,7 +21,7 @@ function NavBar() {
         </li>
 
       </ul>
-      <CartWidget image='https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="200" alt="shopping cart svg png icon download'/>
+      <CartWidget image='https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png'/>
     </div>
   )
 }
