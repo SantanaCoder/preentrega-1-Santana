@@ -1,28 +1,25 @@
 
 
 import CartWidget from "./CartWidget"
+import { NavLink, Link } from "react-router-dom"
+
 
 function NavBar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
+      <Link to= '/'>
       <h1>Santana Store</h1>
+      </Link>
       <ul className="links">
-        <li>
-          <button href="#">Nosotros</button>
-        </li>
-        <li>
-        <button href="#">Accesorios</button>
-        </li>
-        <li>
-        <button href="#">Audio</button>
-        </li>
-        <li>
-        <button href="#">Tecnologia</button>
-        </li>
+        <NavLink to = {`/category/cuerdas `} className={( {isActive}) => isActive ? 'ActiveOption' : 'Option'}>cuerdas</NavLink>
+        <NavLink to = {`/category/percusion `} className={( {isActive}) => isActive ? 'ActiveOption' : 'Option'}>percusion</NavLink>
+        <NavLink to = {`/category/vientos `} className={( {isActive}) => isActive ? 'ActiveOption' : 'Option'}>vientos</NavLink>
+
+
 
       </ul>
       <CartWidget image='https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png'/>
-    </div>
+    </nav>
   )
 }
 

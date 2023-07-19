@@ -34,3 +34,30 @@
     border-radius: 30px;   
     text-align: center;
 }
+
+
+.ventana{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: antiquewhite;
+    background-size: 100%;
+    margin: 25px;
+    padding: 10px;
+}
+
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(86, 97, 126);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+
+
